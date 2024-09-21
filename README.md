@@ -186,10 +186,3 @@ For further information or questions, feel free to contact me.
 
 ---
 
-## GitHub Repository Description
-
-**Pet Adoption Management System**
-
-A C++ application featuring a Qt-based GUI for managing pet adoptions. Admins can add, update, or remove pets, while users can browse and adopt pets. Supports CSV, HTML, and SQLite storage formats, and includes undo/redo functionality for admin actions.
-
----
