@@ -23,41 +23,49 @@ The **Pet Adoption Management System** is a C++ application designed to manage t
 
 ```bash
 .
-├── domain/                      # Domain models for Pet and Adoption List
-│   ├── Pet.h                    # Pet class definition
-│   ├── Pet.cpp                  # Pet class implementation
-│   ├── AdoptionList.h           # Adoption List definition
-│   └── AdoptionList.cpp         # Adoption List implementation
-│   └── file_adoption_list/      # CSV and HTML adoption list management
-│       ├── CsvAdoptionList.h    
-│       └── CsvAdoptionList.cpp  
-│       ├── HtmlAdoptionList.h   
-│       └── HtmlAdoptionList.cpp 
-├── repository/                  # Repositories for managing pet data
-│   ├── TxtRepository.h          # Text file repository definition
-│   ├── TxtRepository.cpp        # Txt repository implementation
-│   ├── DataBaseRepository.h     # SQLite database repository definition
-│   └── DataBaseRepository.cpp   # SQLite database repository implementation
-├── service/                     # Business logic for pet management
-│   ├── PetService.h             # Pet service definition
-│   └── PetService.cpp           # Pet service implementation
-├── validators/                  # Pet data validation
-│   ├── PetValidator.h           # PetValidator definition
-│   └── PetValidator.cpp         # PetValidator implementation
-├── extra/                       # Utility and exception handling
-│   ├── exceptions.h             # Custom exceptions
-│   ├── Utilities.h              # Utility functions
-├── qtui/                        # Qt GUI interface for the application
-│   ├── qtui.h                   # GUI definition
-│   └── qtui.cpp                 # GUI implementation
-├── files/                       # Data files for storage and export
-│   ├── data.txt                 # Initial pet data (text format)
-│   ├── adoption_list.csv        # CSV format of adoption list
-│   ├── adoption_list.html       # HTML format of adoption list
-├── resources/                   # Static resources (images)
-│   └── dog.jpeg                 # Sample pet image
-├── main.cpp                     # Application entry point
-└── README.md                    # README file (you are here)
+📁 **domain**  
+   ├── **Pet.h**                    # Pet class definition  
+   ├── **Pet.cpp**                  # Pet class implementation  
+   ├── **AdoptionList.h**           # Adoption List definition  
+   └── **AdoptionList.cpp**         # Adoption List implementation  
+   └── 📁 **file_adoption_list**      # CSV and HTML adoption list management  
+       ├── **CsvAdoptionList.h**    # CSV adoption list header  
+       ├── **CsvAdoptionList.cpp**  # CSV adoption list implementation  
+       ├── **HtmlAdoptionList.h**   # HTML adoption list header  
+       └── **HtmlAdoptionList.cpp** # HTML adoption list implementation  
+
+📁 **repository**  
+   ├── **TxtRepository.h**          # Text file repository definition  
+   ├── **TxtRepository.cpp**        # Txt repository implementation  
+   ├── **DataBaseRepository.h**     # SQLite database repository definition  
+   └── **DataBaseRepository.cpp**   # SQLite database repository implementation  
+
+📁 **service**  
+   ├── **PetService.h**             # Pet service definition  
+   └── **PetService.cpp**           # Pet service implementation  
+
+📁 **validators**  
+   ├── **PetValidator.h**           # PetValidator definition  
+   └── **PetValidator.cpp**         # PetValidator implementation  
+
+📁 **extra**  
+   ├── **exceptions.h**             # Custom exceptions  
+   └── **Utilities.h**              # Utility functions  
+
+📁 **qtui**  
+   ├── **qtui.h**                   # GUI definition  
+   └── **qtui.cpp**                 # GUI implementation  
+
+📁 **files**  
+   ├── **data.txt**                 # Initial pet data (text format)  
+   ├── **adoption_list.csv**        # CSV format of adoption list  
+   └── **adoption_list.html**       # HTML format of adoption list  
+
+📁 **resources**  
+   └── **dog.jpeg**                 # Sample pet image  
+
+📁 **main.cpp**                     # Application entry point  
+📁 **README.md**                    # README file (you are here)  
 ```
 
 ---
