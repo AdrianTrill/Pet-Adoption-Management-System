@@ -22,7 +22,7 @@ The **Pet Adoption Management System** is a C++ application designed to manage t
 ## Project Structure
 
 ```bash
-.
+
 📁 domain
 ├── Pet.h # Pet class definition
 ├── Pet.cpp # Pet class implementation
