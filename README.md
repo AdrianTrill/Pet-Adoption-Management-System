@@ -23,49 +23,49 @@ The **Pet Adoption Management System** is a C++ application designed to manage t
 
 ```bash
 .
-📁 **domain**  
-   ├── **Pet.h**                    # Pet class definition  
-   ├── **Pet.cpp**                  # Pet class implementation  
-   ├── **AdoptionList.h**           # Adoption List definition  
-   └── **AdoptionList.cpp**         # Adoption List implementation  
-   └── 📁 **file_adoption_list**      # CSV and HTML adoption list management  
-       ├── **CsvAdoptionList.h**    # CSV adoption list header  
-       ├── **CsvAdoptionList.cpp**  # CSV adoption list implementation  
-       ├── **HtmlAdoptionList.h**   # HTML adoption list header  
-       └── **HtmlAdoptionList.cpp** # HTML adoption list implementation  
+📁 domain
+├── Pet.h # Pet class definition
+├── Pet.cpp # Pet class implementation
+├── AdoptionList.h # Adoption List definition
+└── AdoptionList.cpp # Adoption List implementation
+└── 📁 file_adoption_list # CSV and HTML adoption list management
+├── CsvAdoptionList.h # CSV adoption list header
+├── CsvAdoptionList.cpp # CSV adoption list implementation
+├── HtmlAdoptionList.h # HTML adoption list header
+└── HtmlAdoptionList.cpp # HTML adoption list implementation
 
-📁 **repository**  
-   ├── **TxtRepository.h**          # Text file repository definition  
-   ├── **TxtRepository.cpp**        # Txt repository implementation  
-   ├── **DataBaseRepository.h**     # SQLite database repository definition  
-   └── **DataBaseRepository.cpp**   # SQLite database repository implementation  
+📁 repository
+├── TxtRepository.h # Text file repository definition
+├── TxtRepository.cpp # Txt repository implementation
+├── DataBaseRepository.h # SQLite database repository definition
+└── DataBaseRepository.cpp # SQLite database repository implementation
 
-📁 **service**  
-   ├── **PetService.h**             # Pet service definition  
-   └── **PetService.cpp**           # Pet service implementation  
+📁 service
+├── PetService.h # Pet service definition
+└── PetService.cpp # Pet service implementation
 
-📁 **validators**  
-   ├── **PetValidator.h**           # PetValidator definition  
-   └── **PetValidator.cpp**         # PetValidator implementation  
+📁 validators
+├── PetValidator.h # PetValidator definition
+└── PetValidator.cpp # PetValidator implementation
 
-📁 **extra**  
-   ├── **exceptions.h**             # Custom exceptions  
-   └── **Utilities.h**              # Utility functions  
+📁 extra
+├── exceptions.h # Custom exceptions
+└── Utilities.h # Utility functions
 
-📁 **qtui**  
-   ├── **qtui.h**                   # GUI definition  
-   └── **qtui.cpp**                 # GUI implementation  
+📁 qtui
+├── qtui.h # GUI definition
+└── qtui.cpp # GUI implementation
 
-📁 **files**  
-   ├── **data.txt**                 # Initial pet data (text format)  
-   ├── **adoption_list.csv**        # CSV format of adoption list  
-   └── **adoption_list.html**       # HTML format of adoption list  
+📁 files
+├── data.txt # Initial pet data (text format)
+├── adoption_list.csv # CSV format of adoption list
+└── adoption_list.html # HTML format of adoption list
 
-📁 **resources**  
-   └── **dog.jpeg**                 # Sample pet image  
+📁 resources
+└── dog.jpeg # Sample pet image
 
-📁 **main.cpp**                     # Application entry point  
-📁 **README.md**                    # README file (you are here)  
+📁 main.cpp # Application entry point
+📁 README.md # README file (you are here)
 ```
 
 ---
